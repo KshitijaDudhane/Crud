@@ -1,0 +1,73 @@
+
+.login-form-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .database {
+    padding: 20px 40px;
+    margin: 30px;
+}
+
+.database h2 {
+    color: #232323;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.database .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap; 
+    gap: 20px;
+    overflow-x: auto; 
+}
+
+.database .container .box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 300px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
